@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fan Club</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="dropdown">
+    <button class="dropbtn"><img src="images/Hamburger_icon.png"></button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="matlab.html">The Project</a>
+      <a href="youtube.html">Youtube</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+  </div>
+
+  <div class="normal">
+    <h1> Bladeless Fan Club </h1>
+    <br>
+<!--     <h2>Components of the Bladeless Fan</h2>
+
+    <ol>
+      <li>Fan Profile</li>
+
+      <li>Fan Adapter</li>
+      <li>Impeller Housing</li>
+      <li>Impeller</li>
+      
+      <li>Power Cable</li>
+      
+    </ol> 
+    <br>-->
+    <h2>Aims and Requirements</h2>
+    <br>
+    
+    The aims of this project are to educate the reader on the engineering principles behind the operation of bladeless fans
+    and provide the reader with the resources to create their own bladeless fan. The prerequisites for obtaining a fully functioning bladeless fan are:<br>
+
+    <ul>
+      <li>Access to MATLAB.</li>
+      <li>Access to Autodesk Inventor or other CAD software.</li>
+      <li>Access to a 3D printer, preferably with dual injection to print the fan in one part.</li>
+      <li>Funds (~&pound30) to purchase an impeller (~&pound20) and power supply (~&pound10).</li>
+    </ul>
+    <br>
+    <img src="images/wrong_mini.png" width= 25%>
+    <br>
+    <h2>The Components</h2>
+    <br>
+    <ol>
+      <h3><li>Fan Profile</li></h3>
+        
+        The fan profile is the ring-shaped air multiplier. It is the most geometrically complex element. A graphical user interface (GUI) has been developed in Matlab to allow the user to design their own profile based on a number of parameters. The Matlab code then generates the fan profile in xls files which must be imported into CAD software to convert to a file that can be 3D printed. A <a href="youtube.html" >video tutorial</a> for the process is available. The GUI is shown below and the Matlab files required are available to <a href="#" download>download</a>.
+        <br><br>
+        <img src="images/gui_grey_2.png" width = 100% border = 1px >
+
+      <h3><li>Fan Adapter</li></h3>
+        
+        The Matlab code generates an adapter automatically based on the parameters chosen.
+        <br>
+
+      <h3><li>Impeller Housing</li></h3>
+        
+        The impeller housing is a fixed design that is ready to be 3D printed and is available to <a href="#" download> download</a>.
+        
+        <br>
+      <h3><li>Impeller</li></h3>
+        
+        The impeller is the internal fan and needs to be purchased. Most 200 mm computer fans will work, however the <a href="https://www.amazon.co.uk/noctua-NF-F12-iPPC-3000-PWM/dp/B00KESS6O0" target="_blank"> Noctua NFF12 iPPC 3000 PWM</a> is recommended for its impressive air flow.
+        <br>
+        <img src="images/noctua.png" width = 40%>
+        
+      <h3><li>Power Supply</li></h3>
+        
+        Since computer fans are usually powered via a 3 or 4 pin cable that plugs into a computer power supply, an alterante power solution is required. Any <a href="https://www.amazon.co.uk/UGREEN-100-240V-Transformer-Converter-Portable/dp/B00UFK2JP4/ref=sr_1_2_sspa?keywords=12v+power+supply&qid=1555162951&s=gateway&sr=8-2-spons&psc=1" target="_blank">12 V power supply</a> can be used.
+        <br>
+        <img src="images/power_supply2.png" width = 40%>
+    </ol>
+  </div>
+ 
+</body>
+  
+</html>
